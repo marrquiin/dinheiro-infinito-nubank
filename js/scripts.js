@@ -7,9 +7,9 @@
 const fotos = [
     'img/foto1.jpg',
     'img/foto2.jpg',
-    'img/foto3.jpg',
+    //'img/foto3.jpg',
     'img/foto4.jpg',
-    'img/foto5.jpg'
+    'img/foto5.png'
 ];
 
 const slideshow = document.getElementById('slideshow');
