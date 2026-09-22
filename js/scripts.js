@@ -42,17 +42,16 @@ setInterval(proximoSlide, 3500);
 const frases = [
     "Estava com tempo e queria ver se ainda sei programar, então fiz esse insulto pra você. Ms um ano de vida e você ainda não aprendeu a SER UMA PESSOA PRESENTE... melhore!",
     "Fé que você vai trabalhar no atacadão do Cordeiro! 🙏🙏🙏",
-    "Pensa num cabra que tem tempo livre pra fazer essa merda toda! 🤣🤣🤣",
-    "Se ganhar na loteria, não esquece de mim, hein!",
+    "Você é a mocreia mais legal que já conheci, obrigado!",
     "Parabéns! DIVONICA! MONA! BABILONICA! 🥳",
-    "Já agradeceu por me ter como amigo na sua vida hoje? 😎",
-    "Ontem eu comi pipoca com sal!",
-    "Políticas publicas trabalha com o que? 🤔",
-    "Vai ter festa?",
-    "Nem te convido para comemorar o seu aniversário, porque sei que você não vai!",
-    "Aparentemente ainda sei fazer merdas na progamação!",
-    "Não tenho mais insultos! 🥲🥲🥲",
-    "Me apresenta Camilinha de novo, na moral. KKKKKKKKKKKKKKKK"
+    "Pensa num cabra que tem tempo livre pra fazer essa merda toda!",
+    "Se ganhar na loteria, não esquece de mim, hein!",
+    "Já agradeceu por me ter como amigo?",
+    "Políticas publicas trabalha com o que?",
+    "Nem te convido para comemorar, porque sei que você não vai!",
+    "Aparentemente ainda sei programar!",
+    "Não tenho mais insultos, tenha um dia abençoado",
+    "Ainda sinto falta da Camila",
 ];
 
 let fraseAtual = 0;
@@ -114,7 +113,7 @@ function ajustarCanvas() {
 window.addEventListener('resize', ajustarCanvas);
 ajustarCanvas();
 
-const coresConfete = ['#ff2fb0', '#f5ff2e', '#29e0ff', '#7b2ff7', '#ffffff'];
+const coresConfete = ['#ff2fb0', '#f5ff2e', '#29e0ff', '#7b2ff7', '#ffffff', '#000000'];
 
 function criarConfetes(qtd) {
     for (let i = 0; i < qtd; i++) {
